@@ -1,0 +1,90 @@
+@font-face {
+    font-family: TrajanPro;
+    src: url(./fonts/Trajan-pro/Trajan\ Pro.ttf);
+  }
+
+@font-face {
+    font-family: EB-Garamond;
+    src: url(./fonts/EB-Garamond/EBGaramond-VariableFont_wght.ttf);
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    padding: 15px 0px 50px 0px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.719), transparent );
+  }
+
+  header h1 {
+    text-align: center;
+    font-family: TrajanPro;
+    font-size: 50px;
+    color: #f7b467;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+main {
+    overflow: hidden;
+}
+
+section {
+    padding: 0px;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-home {
+    background-image: url("./img/background1.jpg");
+    background-size: cover;
+    background-position: left;
+}
+  
+
+.aviso {
+    background-image: url("./img/background2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#aviso {
+    padding: 100px;
+}
+
+.aviso h2 {
+    color: #200e04;
+    font-family: TrajanPro;
+    text-align: center;
+    font-size: 40px;
+    padding: 0px 0px 50px 0px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.aviso p {
+    font-family: EB-Garamond;
+    color: #200e04;
+    font-size: 30px;
+}
+
+
+footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+  }
